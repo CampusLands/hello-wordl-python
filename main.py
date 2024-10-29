@@ -1,11 +1,9 @@
-fullName = "Miguel Angel Castro Escamilla"  #Tipo de datos string
-gender = "M" #Tipo de dato char
-age = 22 #Tipo de dato int
-height = 1.687 #Tipo de dobule 
-trainer = True #Tipo de dato boolean
+fullName = input("Enter your full name: ")
+age = int(input("Enter your age: "))
+gender = input("Enter your possible gender options M, F, X: ")
+heigth = float(input("Enter your height: "))
 
-# Conjuntos
-hobbies = ["Pragarmar", 'Coninar', """Wow Horda"""] #Tipo de dato array
-direction = (dict) ["country": "Colombia", "state": "Santander"] #Tipo de dato object
-
-print(f""" Teacher's Name: "{fullName}" """)
+print(f"""
+Hola, usuario {fullName}. ¿Cómo estás? Te saluda Python. 
+Gracias por compartir tu edad {age}; no sabía que eres un humano de tipo {gender}.
+""")
